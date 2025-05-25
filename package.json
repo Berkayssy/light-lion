@@ -1,0 +1,17 @@
+{
+  "name": "light-lion",
+  "version": "1.0.1",
+  "main": "./dist/my-button.cjs.js",
+  "module": "./dist/my-button.es.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "vite build"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  }
+}
